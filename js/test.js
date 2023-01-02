@@ -1,12 +1,29 @@
-const players = [
-    { name: "Mango", playtime: 1270, gamesPlayed: 4 },
-    { name: "Poly", playtime: 469, gamesPlayed: 2 },
-    { name: "Ajax", playtime: 690, gamesPlayed: 3 },
-    { name: "Kiwi", playtime: 241, gamesPlayed: 1 },
-  ];
-  // Change code below this line
+// Change code below this line
+let pricePerDroid = 800;
+let orderedQuantity = 6;
+let deliveryFee = 50;
+let totalPrice =  pricePerDroid * orderedQuantity + deliveryFee;
+const message = `You ordered droids worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`
+console.log(message)p[
   
-const totalAveragePlaytimePerGame = players.reduce((previousValue, player, playtime, gamesPlayed) => previousValue + (player = player.playtime / player.gamesPlayed), 0)
-  console.log( totalAveragePlaytimePerGame)
-                                                  
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
